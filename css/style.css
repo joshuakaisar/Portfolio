@@ -26,6 +26,10 @@ body {
     padding-left: 32px;
     padding-top: 64px;
 }
+.about_me_answers {
+    padding-left: 48px;
+    padding-top: 8px;
+}
 
 /*Projects Page*/
 .projects_style {
@@ -42,9 +46,6 @@ body {
 }
 a {
     color: inherit;
-    font-family: inherit;
-    font-size: inherit;
-    text-decoration: none;
 }
 /*======================================================
                           Navbar
@@ -121,7 +122,7 @@ a {
 }
 #navbar li a:hover {
     /* border-bottom: 1px solid rgb(28, 121, 184); */
-    color: rgb(28, 121, 184);
+    color: orange;
     transition: all 1s ease;
     -webkit-transition: all 1s ease;
 }
@@ -283,7 +284,7 @@ a {
                    Responsive Mobile Menu
   ======================================================*/
 .overlay-menu {
-    background: lightblue;
+    background: darkgrey;
     color: rgb(13, 26, 38);
     display: flex;
     align-items: center;
@@ -317,7 +318,7 @@ a {
 }
 .overlay-menu li a:hover,
 .overlay-menu li a:active {
-    color: rgb(28, 121, 184);
+    color: orange;
     -webkit-transition: color 0.3s ease;
     transition: color 0.3s ease;
 }
@@ -348,7 +349,8 @@ button {
     color: #fff;
     border-radius: 5px;
     padding: 10px 25px;
-    font-weight: 500;
+    font-family: inherit;
+    font-size: small;
     background: transparent;
     cursor: pointer;
     transition: all 0.3s ease;
