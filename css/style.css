@@ -23,7 +23,14 @@ body {
 /*About Page*/
 .about_me {
     text-align: left;
-    padding-left: 30px;
+    padding-left: 32px;
+    padding-top: 64px;
+}
+
+/*Projects Page*/
+.projects_style {
+    text-align: center;
+    padding-top: 64px;
 }
 
 /* Navbar/Header */
