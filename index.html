@@ -7,6 +7,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <!-- Typewriter Script -->
+    <script src="scripts/typeWriterScript.js"></script>
+    <!-- Javascript for navbar -->
+    <script src="scripts/navBarScript.js"></script>
 </head>
 <body>
     <header>
@@ -41,35 +45,13 @@
             </ul>
         </div>
     </header>
-<!-- Javascript for navbar -->
-    <script>
-        let menuIcon = document.querySelector('.menuIcon');
-        let nav = document.querySelector('.overlay-menu');
 
-        menuIcon.addEventListener('click', () => {
-            if (nav.style.transform != 'translateX(0%)') {
-                nav.style.transform = 'translateX(0%)';
-                nav.style.transition = 'transform 0.2s ease-out';
-            } else {
-                nav.style.transform = 'translateX(-100%)';
-                nav.style.transition = 'transform 0.2s ease-out';
-            }
-        });
-        // Toggle Menu Icon ========================================
-        let toggleIcon = document.querySelector('.menuIcon');
-
-        toggleIcon.addEventListener('click', () => {
-            if (toggleIcon.className != 'menuIcon toggle') {
-                toggleIcon.className += ' toggle';
-            } else {
-                toggleIcon.className = 'menuIcon';
-            }
-        });
-    </script>
 
     <h1>&nbsp</h1>
     <div class="font_page_greeting">
-        <h1 class="line-1 anim-typewriter">Hi. I'm Josh. A Computer Scientist.</h1>
+        <a href="" class="typewrite" data-period="2000" data-type='[ "Hi, Im Josh", "I am a Computer Scientist.", "I Love Design.", "I Love 2 Develop." ]'>
+            <span class="wrap"></span>
+        </a>
     </div>
 
     <!-- JavaScript Bundle with Popper -->
