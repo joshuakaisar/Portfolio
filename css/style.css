@@ -14,125 +14,6 @@ body {
     font-family: 'Space Mono', monospace;
 }
 
-/* Resume Page Styling */
-*, *:before, *:after {
-    -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
-}
-
-.skill-set li:hover
-{
-    background: orange;
-}
-
-.wrapper
-{
-    height:100%;
-}
-
-
-.right
-{
-    height:100%;
-    position:relative;
-}
-
-
-.name-hero
-{
-    background:rgba(0,0,0,.001);
-    bottom:0;
-    height:290px;
-    left:0;
-    margin:auto;
-    position:absolute;
-    right:0;
-    top:0;
-    width:85%;
-}
-
-.me-img
-{
-    background:url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/36334/profile/profile-512_4.jpg) no-repeat center center ;
-    background-size:100%;
-    background-position:0px;
-    border-radius:100%;
-    height:150px;
-    margin:0 auto;
-    position:relative;
-    width:150px;
-}
-
-.name-hero h1
-{
-    font-size:1.5em;
-    text-align:center;
-}
-
-.name-hero h1 em
-{
-    color: orange;
-    font-style:normal;
-    font-weight:700;
-}
-
-.name-hero p
-{
-    color: black;
-    font-size:.75em;
-    line-height:1.5;
-    margin:0 8px 0 0;
-    text-align:center;
-}
-
-.name-hero .name-text {
-    margin:0 auto;
-    width:85%;
-}
-
-.inner {
-    margin:0 auto;
-    max-width:975px;
-    padding:3em;
-}
-
-.inner h1 {
-    font-size:1.75em;
-}
-
-.inner p
-{
-    color: darkgrey;
-}
-
-.employment ul {
-    padding-left: 32px;
-}
-
-.inner p em
-{
-    color:rgba(0,0,0,.75);
-    font-style:normal;
-}
-
-.inner section
-{
-    margin:100px auto;
-}
-
-
-
-.skill-set li
-{
-    background:rgba(0,0,0,.75);
-    border-radius:5px;
-    color:#FFF;
-    display:inline-block;
-    list-style:none;
-    margin:15px 15px 0 0;
-    padding:10px;
-    text-align:justify;
-}
-
 
 /*About Page*/
 .about_me {
@@ -479,6 +360,7 @@ button {
 .btn-15 {
     background: black;
     border: none;
+    z-index: 0;
 }
 .btn-15:after {
     position: absolute;
