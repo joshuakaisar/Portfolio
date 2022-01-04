@@ -1,0 +1,47 @@
+/* Resume Page Styling */
+.skill-set li:hover {
+    background: orange;
+}
+
+.right {
+    height:100%;
+    position:relative;
+}
+
+.inner {
+    margin:0 auto;
+    max-width:975px;
+    padding:3em;
+}
+
+.inner h1 {
+    font-size:1.75em;
+}
+
+.inner p {
+    color: darkgrey;
+}
+
+.employment ul {
+    padding-left: 32px;
+}
+
+.inner p em {
+    color:rgba(0,0,0,.75);
+    font-style:normal;
+}
+
+.inner section {
+    margin:100px auto;
+}
+
+.skill-set li {
+    background:rgba(0,0,0,.75);
+    border-radius:5px;
+    color:#FFF;
+    display:inline-block;
+    list-style:none;
+    margin:15px 15px 0 0;
+    padding:10px;
+    text-align:justify;
+}
