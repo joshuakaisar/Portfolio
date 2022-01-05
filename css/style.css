@@ -14,18 +14,6 @@ body {
     font-family: 'Space Mono', monospace;
 }
 
-
-/*About Page*/
-.about_me {
-    text-align: left;
-    padding-left: 32px;
-    padding-top: 64px;
-}
-.about_me_answers {
-    padding-left: 48px;
-    padding-top: 8px;
-}
-
 /*Projects Page*/
 .projects_style {
     text-align: center;
