@@ -47,3 +47,52 @@
     padding:10px;
     text-align:justify;
 }
+
+/* button */
+.frame {
+    width: 90%;
+    margin: 40px auto;
+    text-align: center;
+}
+button {
+    margin: 20px;
+}
+.custom-btn {
+    width: 150px;
+    color: #fff;
+    border-radius: 5px;
+    margin:15px 15px 0 0;
+    padding: 10px;
+    font-size: normal;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+}
+.btn-15-resume {
+    background: rgba(0,0,0,.75);
+    border: none;
+    z-index: 0;
+}
+.btn-15-resume:after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 100%;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    background-color: orange;
+    border-radius: 5px;
+    7px 7px 20px 0px rgba(0,0,0,.1),
+    4px 4px 5px 0px rgba(0,0,0,.1);
+    transition: all 0.3s ease;
+}
+.btn-15-resume:hover {
+    background: orange;
+    transition: all 0.3s ease;
+    color: black;
+}
+.btn-15-resume:active {
+    top: 2px;
+}
