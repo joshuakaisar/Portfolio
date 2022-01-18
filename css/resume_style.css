@@ -21,7 +21,7 @@
 }
 
 .inner p {
-    color: darkgrey;
+    color: rgb(122, 122, 122);
 }
 
 .employment ul {
@@ -48,7 +48,7 @@
     text-align:justify;
 }
 
-/* button */
+/* Download Button */
 .frame {
     width: 90%;
     margin: 40px auto;
