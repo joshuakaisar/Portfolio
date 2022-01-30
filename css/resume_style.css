@@ -1,4 +1,8 @@
 /* Resume Page Styling */
+body {
+    position: relative;
+}
+
 .skill-set li:hover {
     background: orange;
     transition: all 0.3s ease;
