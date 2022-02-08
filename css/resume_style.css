@@ -10,18 +10,18 @@ body {
 }
 
 .right {
-    height:100%;
-    position:relative;
+    height: 100%;
+    position: relative;
 }
 
 .inner {
-    margin:0 auto;
-    max-width:975px;
-    padding:3em;
+    margin: 0 auto;
+    max-width: 975px;
+    padding: 3em;
 }
 
 .inner h1 {
-    font-size:1.75em;
+    font-size: 1.75em;
 }
 
 .inner p {
@@ -33,23 +33,23 @@ body {
 }
 
 .inner p em {
-    color:rgba(0,0,0,.75);
-    font-style:normal;
+    color: rgba(0, 0, 0, 0.75);
+    font-style: normal;
 }
 
 .inner section {
-    margin:100px auto;
+    margin: 100px auto;
 }
 
 .skill-set li {
-    background:rgba(0,0,0,.75);
-    border-radius:5px;
-    color:#FFF;
-    display:inline-block;
-    list-style:none;
-    margin:15px 15px 0 0;
-    padding:10px;
-    text-align:justify;
+    background: rgba(0, 0, 0, 0.75);
+    border-radius: 5px;
+    color: #fff;
+    display: inline-block;
+    list-style: none;
+    margin: 15px 15px 0 0;
+    padding: 10px;
+    text-align: justify;
 }
 
 /* Download Button */
@@ -65,7 +65,7 @@ button {
     width: 150px;
     color: #fff;
     border-radius: 5px;
-    margin:15px 15px 0 0;
+    margin: 15px 15px 0 0;
     padding: 10px;
     font-size: normal;
     background: transparent;
@@ -74,7 +74,7 @@ button {
     position: relative;
 }
 .btn-15-resume {
-    background: rgba(0,0,0,.75);
+    background: rgba(0, 0, 0, 0.75);
     border: none;
     z-index: 0;
 }
