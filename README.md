@@ -1,2 +1,2 @@
-<h1>About me</h1>
+<h3>About me</h3>
 Hi I'm Joshua.
