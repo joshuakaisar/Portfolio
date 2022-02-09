@@ -9,4 +9,5 @@ I am currently just about one year away from graduating with a BS in Information
 Which brings us to why I've made this website. First and foremost, because I found so much satisfaction and joy in making this interactive resume. But secondly, to show that I am capable of creating such a masterpiece in my very young and early career.
  
 <h3>This website consists of 58.0% HTML, 34.5% CSS, and 7.5% JavaScript.</h3>
+
 This will most definitely change as I make more improvements to the website over time as my career grows and my skills mature. But I have shown that I am capable of jumping into the deep end and will continue to do so as my career goes on.
