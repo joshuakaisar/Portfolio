@@ -10,12 +10,6 @@ body {
     font-family: "Poppins", sans-serif;
 }
 
-/*Projects Page*/
-.projects_style {
-    text-align: center;
-    padding-top: 64px;
-}
-
 /* Navbar/Header */
 * {
     border: 0;
