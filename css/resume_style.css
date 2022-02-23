@@ -386,6 +386,10 @@ body {
     color: rgb(122, 122, 122);
 }
 
+.inner a {
+    color: rgb(122, 122, 122);
+}
+
 .employment ul {
     padding-left: 32px;
 }
