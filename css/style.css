@@ -411,30 +411,37 @@ section {
     padding: 5em 2em;
 }
 
-.about_homepage_body {
-    display: grid;
-    grid-template-columns: 1fr 400px;
-    grid-template-areas: "title img" "subtitle img" "text img";
-    grid-column-gap: 2em;
-    max-width: 1000px;
-    margin: 0 auto;
+@media (min-width: 600px) {
+    .about_homepage_body {
+        display: grid;
+        grid-template-columns: 1fr 400px;
+        grid-template-areas: "title img" "subtitle img" "text img";
+        grid-column-gap: 2em;
+    }
+    .about_homepage_body {
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+    .about_me_title {
+        font-size: 2em;
+        text-align: center;
+        grid-area: title;
+        font-family: "Dancing Script", cursive;
+    }
+    .about_me_body {
+        text-align: center;
+        padding-bottom: 1em;
+        box-sizing: border-box;
+    }
+    .about_me_image {
+        box-shadow: 0 0 10px;
+        grid-area: img;
+        position: relative;
+    }
 }
-.about_me_title {
-    font-size: 2em;
-    text-align: center;
-    grid-area: title;
-    font-family: "Cedarville Cursive", cursive;
-}
-.about_me_body {
-    text-align: center;
-    padding-bottom: 1em;
-    box-sizing: border-box;
-}
-.about_me_image {
-    width: 400px;
-    height: 533px;
-    box-shadow: 0 0 10px;
-    grid-area: img;
+img {
+    display: block;
+    max-width: 100%;
 }
 
 /* Footer */
