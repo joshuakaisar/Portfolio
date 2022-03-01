@@ -23,3 +23,7 @@
 .inner section {
     margin: 100px auto;
 }
+
+footer {
+    position: fixed;
+}
