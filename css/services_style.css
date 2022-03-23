@@ -1,5 +1,51 @@
 /* Service Page */
-.inner {
+.main_heading h1::before {  
+  transform: scaleX(0);
+  transform-origin: bottom right;
+}
+
+.main_heading h1:hover::before {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.main_heading h1::before {
+  content: " ";
+  display: block;
+  position: absolute;
+  top: 0; right: 0; bottom: 0; left: 0;
+  inset: 0 0 0 0;
+  background: orange;
+  z-index: -1;
+  transition: transform .3s ease;
+}
+
+.main_heading h1 {
+  font-size: 5rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+}
+
+.main_heading {
+  margin: 0;
+  margin-top: auto;
+  margin-bottom: auto;
+  box-sizing: border-box;
+  display: grid;
+  place-content: center;
+  vertical-align: middle;
+}
+
+@media (orientation: landscape) {
+  body {
+    grid-auto-flow: column;
+  }
+}
+
+/* .inner {
     margin: 0 auto;
     max-width: 975px;
     padding: 3em;
@@ -22,7 +68,7 @@
 
 .inner section {
     margin: 100px auto;
-}
+} */
 
 footer {
     position: fixed;
