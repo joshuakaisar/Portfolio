@@ -1,4 +1,18 @@
 /* Porjects Page */
+html {
+    height: 100%;
+} 
+
+body {
+    min-height: 100%;
+
+    display: flex;
+    flex-direction: column;
+}
+
+footer{
+    margin-top: auto;
+}
 .inner {
     margin: 0 auto;
     max-width: 975px;
