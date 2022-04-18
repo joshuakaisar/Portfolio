@@ -1,19 +1,4 @@
 /*About Page*/
-html {
-    height: 100%;
-} 
-
-body {
-    min-height: 100%;
-
-    display: flex;
-    flex-direction: column;
-}
-
-footer{
-    margin-top: auto;
-}
-
 .right {
     height: 100%;
     position: relative;
