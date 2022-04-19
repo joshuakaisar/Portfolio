@@ -1,12 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
-/* General Styles */
+/* General Layout & Font */
 html {
     scroll-behavior: smooth;
     height: 100%;
 }
 
-/* Font */
 body {
     font-family: "Poppins", sans-serif;
 
